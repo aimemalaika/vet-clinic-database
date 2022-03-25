@@ -11,3 +11,9 @@ CREATE TABLE animals (
     neutered BOOL NOT NULL DEFAULT FALSE,
     weight_kg DECIMAL NOT NULL
 );
+
+-- Add a column species of type string to your animals table.
+ALTER TABLE animals ADD species VARCHAR(50) DEFAULT NULL;
+
+
+
